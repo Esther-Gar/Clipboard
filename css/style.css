@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root {
+    --strongCyan: hsl(171, 66%, 44%);
+    --lightBlue: hsl(233, 100%, 69%);
+    --darGrayishBlue: hsl(210, 10%, 33%);
+    --grayishBlue: hsl(201, 11%, 66%);
+    --bai-jamjuree: "Bai Jamjuree", sans-serif;
+}
+
+/*=========Desktop View===========*/
+@media screen and (min-width: 640px) {
+    body {
+        max-width: 1440px;
+        font-family: var(--bai-jamjuree);
+        background-image: url("../images/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10rem;
+        padding: 0 2rem;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5rem;
+        width: 650px;
+        padding-left: 12rem;
+    }
+
+    #header img {
+        padding-bottom: 1.5rem;
+        padding-top: 4rem;
+    }
+
+    #header h3 {
+        font-size: xx-large;
+        line-height: 0;
+    }
+
+    #header p {
+        font-size: 18px;
+    }
+
+    .header-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .btn1, .btn2 {
+        border: none;
+        border-radius: 50px;
+        padding: 1rem 1.5rem;
+        color: white;
+        font-size: 18px;
+        margin-top: 1.5rem;
+        cursor: pointer;
+    }
+
+    .btn1 {
+        background-color: var(--strongCyan);
+    }
+
+    .btn2 {
+        background-color: var(--lightBlue);
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 4rem 10rem;
+        width: 700px;
+        padding-left: 12rem;
+    }
+
+    .intro h3 {
+        line-height: 0;
+        font-size: xx-large;
+    }
+
+    .intro p {
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+
+    #details {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 4rem;
+        margin: 4rem 4rem;
+        width: 1100px;
+        padding-left: 1rem;
+    }
+
+    .left img {
+        width: 600px;
+        height: 500px;
+    }
+
+    .right {
+        margin-top: 3rem;
+    }
+
+    .right h4 {
+        font-size: x-large;
+        line-height: 0;
+    }
+
+    .right p {
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    #access {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 4rem 10rem;
+        width: 700px;
+        padding-left: 12rem;
+    }
+
+    #access h3 {
+        font-size: xx-large;
+    }
+
+    #access p {
+        font-size: 18px;
+    }
+
+    #access img {
+        padding-top: 4rem;
+    }
+
+    #features {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+        padding: 1rem 6rem;
+    }
+
+    .blacklists {
+        width: 400px;
+        margin-top: 1.5rem;
+    }
+
+    .snippet, .preview {
+        width: 420px;
+    }
+
+    #features h4 {
+        font-size: x-large;
+        line-height: 0;
+    }
+
+    #features p {
+        font-size: 16px;
+        line-height: 2rem;
+    }
+
+    #partners {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 4rem 6rem;
+    }
+
+    #clipboard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 4rem 10rem;
+        width: 700px;
+        padding-left: 12rem;
+    }
+
+    #clipboard h3 {
+        line-height: 0;
+        font-size: xx-large;
+    }
+
+    #clipboard p {
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+
+    .clip-buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--grayishBlue);
+        padding-left: 8rem;
+        padding-right: 8rem;
+        height: 200px;
+    }
+
+    .lines {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        font-size: 18px;
+    }
+
+    .lines p:hover {
+        cursor: pointer;
+        color: var(--strongCyan);
+    }
+
+    .line1 {
+        width: 200px;
+        height: 200px;
+        margin-top: 4rem;
+    }
+
+    .line4 {
+        margin-bottom: 2.5rem;
+    }
+
+    .icons {
+        display: flex;
+        gap: 1rem;
+    }
+
+    a:hover {
+        cursor: pointer;
+        background-color: var(--strongCyan);
+    }
+
+}
+
+/*=====Mobile View==========*/
+@media screen and (max-width: 768px) {
+    body {
+        min-width: 375px;
+        font-family: var(--bai-jamjuree);
+        overflow-x: hidden;
+        background-image: url('../images/bg-header-mobile.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    }
+
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 2rem;
+        align-items: center;
+        text-align: center;
+        line-height: 1.5rem;
+        width: 350px;
+        padding: 0 2rem;
+    }
+
+    #header img {
+        background-repeat: no-repeat;
+        padding-bottom: 1.5rem;
+        margin-top: 8rem;
+    }
+
+    #header h3 {
+        font-size: xx-large;
+        line-height: 2.5rem;
+    }
+
+    #header p {
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    .btn1, .btn2 {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        border-radius: 50px;
+        padding: 1rem 6rem;
+        color: white;
+        font-size: 18px;
+        margin-top: 1.5rem;
+        cursor: pointer;
+    }
+
+    .btn1 {
+        background-color: var(--strongCyan);
+    }
+
+    .btn2 {
+        background-color: var(--lightBlue);
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 4rem 2rem;
+        width: 350px;
+        padding: 2rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .intro h3 {
+        line-height: 2.5rem;
+        font-size: xx-large;
+    }
+
+    .intro p {
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin: 0 3rem;
+        width: 350px;
+        padding-left: 2rem;
+    }
+
+    .left img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .right h4 {
+        font-size: x-large;
+        line-height: 0;
+    }
+
+    .right p {
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    #access {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 8rem 2rem;
+        width: 350px;
+        padding: 2rem 2rem;
+    }
+
+    #access h3 {
+        font-size: xx-large;
+    }
+
+    #access p {
+        font-size: 18px;
+        line-height: 2rem;
+    }
+
+    #access img {
+        padding-top: 4rem;
+        width: 350px;
+        padding-bottom: 4rem;
+    }
+
+    #features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 4rem;
+        padding: 0 1rem;
+    }
+
+    .blacklists {
+        width: 320px;
+        
+    }
+
+    .snippet, .preview {
+        width: 320px;
+    }
+
+    #features h4 {
+        font-size: x-large;
+        line-height: 0;
+    }
+
+    #features p {
+        font-size: 16px;
+        line-height: 2rem;
+    }
+
+    #partners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8rem;
+        margin-top: 6rem;
+        margin-left: 6rem;
+        width: 350px;
+        padding: 2rem 4rem;
+    }
+
+    #partners img {
+        width: 200px;
+    }
+
+    #clipboard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 4rem 4rem;
+        width: 350px;
+        padding: 0 2rem;
+    }
+
+    #clipboard h3 {
+        line-height: 2.5rem;
+        font-size: xx-large;
+    }
+
+    #clipboard p {
+        line-height: 1.5rem;
+        font-size: 18px;
+    }
+
+    .clip-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--grayishBlue);
+
+        
+    }
+
+    .lines {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .lines p:hover {
+        cursor: pointer;
+        color: var(--strongCyan);
+    }
+
+    .line1 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .line2, .line3 {
+        line-height: 2rem;
+        
+    }
+
+    .line4 {
+        margin-bottom: 2.5rem;
+    }
+
+    .icons {
+        display: flex;
+        gap: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    a:hover {
+        cursor: pointer;
+        background-color: var(--strongCyan);
+    }
+}
