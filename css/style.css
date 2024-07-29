@@ -423,10 +423,10 @@
         justify-content: center;
         gap: 8rem;
         margin-top: 6rem;
-        margin-left: 1rem;
-        width: 350px;
+        margin-left: 2rem;
+        width: 320px;
         padding-top: 2rem;
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
     #partners img {
