@@ -268,12 +268,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0 2rem;
+        margin: 0 1rem;
         align-items: center;
         text-align: center;
         line-height: 1.5rem;
         width: 350px;
-        padding: 0 2rem;
     }
 
     #header img {
@@ -318,9 +317,9 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 4rem 2rem;
+        margin: 4rem 1rem;
         width: 350px;
-        padding: 2rem 2rem;
+        padding: 2rem 0;
         margin-bottom: 2rem;
     }
 
@@ -340,9 +339,8 @@
         justify-content: center;
         align-items: center;
         gap: 4rem;
-        margin: 0 3rem;
+        margin: 0 1rem;
         width: 350px;
-        padding-left: 2rem;
     }
 
     .left img {
@@ -370,9 +368,9 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 8rem 2rem;
+        margin: 8rem 1rem;
         width: 350px;
-        padding: 2rem 2rem;
+        padding: 2rem 0;
     }
 
     #access h3 {
@@ -425,9 +423,9 @@
         justify-content: center;
         gap: 8rem;
         margin-top: 6rem;
-        margin-left: 6rem;
+        margin-left: 1rem;
         width: 350px;
-        padding: 2rem 4rem;
+        padding: 2rem 2rem;
     }
 
     #partners img {
@@ -440,9 +438,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 4rem 4rem;
+        margin: 4rem 1rem;
         width: 350px;
-        padding: 0 2rem;
     }
 
     #clipboard h3 {
